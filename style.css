@@ -1,5 +1,5 @@
     body{
-        color: #fbbb11;
+        color: #e6e4e1;
         background-color: #252525;
     }
     ul{
@@ -10,12 +10,14 @@
         padding-left: 20px;
         font-family: Arial, Helvetica, sans-serif;
         list-style-type: none;
+        
     }
     header img{
         width: 200px;
         height: 200px;
         border-radius: 50%;
-        border: 5px solid #fbbb11;
+        border: 5px solid #fff;
+    
         
     }
     footer img{
@@ -29,7 +31,7 @@
     footer{
         display: flex;
         justify-content: center;
-        
+        opacity: 0.9;
         font-family: Arial, Helvetica, sans-serif
     }
     footer a{
@@ -41,8 +43,9 @@
         margin-top: 2px;
         
     }
-    .header{
+    header{
         text-align: center;
+        opacity: 1;
         font-family: Arial, Helvetica, sans-serif
     }
     section{
@@ -50,37 +53,43 @@
         text-align: left;
     }
     .navbar{
-        background-color: #555146;
+        opacity: 0.9;
+        background-color: #252525;
         margin: 5px;
         border-radius: 20px;
-
     }
     main{
-        background-color: #555146;
+        background-color: #252525;
         border-radius: 20px;
         margin: 5px;
         padding-left: 20px;
+        box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+        opacity: 0.9;
         font-family: Arial, Helvetica, sans-serif
     }
     .footer{
-    
-        margin: 5px 230px;
-        padding-bottom: 2%;
-        min-height: 10vh;
+        margin-bottom: 90px;
+        margin-left: 400px;
+        margin-right: 400px;
+        padding-bottom: 02px;
+        padding-top: 02px;
         text-align: center;
         justify-content: center;
         align-content: center;
         border-radius: 20px;
         padding-left: 20px;
+        background-color: #252525;
+        opacity: 0.9;
     }
     a{
         text-decoration: none;
-        color: #fbbb11;
+        color: #e6e4e1;
     }
     a:hover{
-        color: #97958f;
+        color: #ffffff;
     }
     footer:hover{
-        color: #97958f;
+        color: #ffffff;
     }
+    
     
