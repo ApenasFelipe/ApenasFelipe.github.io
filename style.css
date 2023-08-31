@@ -1,5 +1,5 @@
-    body{
-        color: #e6e4e1;
+        body{
+        color: rgb(28, 148, 34);
         background-color: #252525;
     }
     ul{
@@ -16,7 +16,7 @@
         width: 200px;
         height: 200px;
         border-radius: 50%;
-        border: 5px solid #fff;
+        border: 5px solid rgb(28, 148, 34);
     
         
     }
@@ -32,16 +32,27 @@
         display: flex;
         justify-content: center;
         opacity: 0.9;
+        margin-top: 2px;
+        margin: 40px;
+        text-align: center;
+        padding: 20px;
         font-family: Arial, Helvetica, sans-serif
+        
     }
     footer a{
             margin: 40px;
             text-align: center;
             padding: 20px;
     }
-    footer p{
-        margin-top: 2px;
-        
+    footer img{
+        justify-content: center;
+        align-items: center;
+    }
+    footer h4{
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-inline-start: -22px;
     }
     header{
         text-align: center;
@@ -55,8 +66,9 @@
     .navbar{
         opacity: 0.9;
         background-color: #252525;
-        margin: 5px;
+        margin: 5px; 
         border-radius: 20px;
+        
     }
     main{
         background-color: #252525;
@@ -68,22 +80,17 @@
         font-family: Arial, Helvetica, sans-serif
     }
     .footer{
-        margin-bottom: 90px;
-        margin-left: 400px;
-        margin-right: 400px;
-        padding-bottom: 02px;
-        padding-top: 02px;
-        text-align: center;
-        justify-content: center;
-        align-content: center;
+
         border-radius: 20px;
         padding-left: 20px;
-        background-color: #252525;
         opacity: 0.9;
+        border-radius: 20px;
+        border: #252525;
+        
     }
     a{
         text-decoration: none;
-        color: #e6e4e1;
+        color: rgb(28, 148, 34);
     }
     a:hover{
         color: #ffffff;
@@ -91,5 +98,4 @@
     footer:hover{
         color: #ffffff;
     }
-    
     
